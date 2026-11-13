@@ -43,7 +43,7 @@ destruction, or credentials.
 Clone it anywhere.
 
 ```bash
-git clone https://github.com/ryangalea23/claude-captain
+git clone https://github.com/larchmontlabs/claude-captain
 ```
 
 **The playbook.** Copy `CAPTAIN.md` into your project, or point your coordinator session at
@@ -75,7 +75,7 @@ cd scripts && python -m pytest -q
 
 `CAPTAIN.md` tells you to watch what each session is doing, notice the stopped ones, and
 hand work off. This repo does not include those tools. They live in
-[claude-fleet](https://github.com/ryangalea23/claude-fleet): `fleet` shows every running
+[claude-fleet](https://github.com/larchmontlabs/claude-fleet): `fleet` shows every running
 session and whether it is working or waiting on you, `snapshot` and `handoff` move work
 between sessions, and `ai-usage` shows how much plan headroom each account has left.
 
